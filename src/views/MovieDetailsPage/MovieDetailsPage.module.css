@@ -1,0 +1,110 @@
+.title {
+  margin-top: 0;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: #2f4f4f;
+}
+
+.img {
+  margin-left: 30px;
+  margin-bottom: 0;
+  max-width: 320px;
+  height: 400px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.wrapper {
+  text-align: center;
+  display: flex;
+}
+
+.btn {
+  background-color: #ff8c00;
+  border-radius: 4px;
+  width: 80px;
+  height: 30px;
+  opacity: 0.7;
+  cursor: pointer;
+  outline: 0;
+  border: 1px solid#d3d3d3;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #ff4500;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.btn:hover {
+  opacity: 1;
+  color: black;
+}
+.container {
+  padding: 0;
+  padding-right: 15px;
+}
+
+.description {
+  text-align: left;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.movieTitle {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.info {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: #ff8c00;
+  width: 700px;
+}
+
+.genre {
+  padding: 0;
+  display: flex;
+  color: #ff8c00;
+  text-align: right;
+}
+
+.genre li:not(:last-child)::after {
+  content: ",";
+  margin-right: 5px;
+}
+
+.generItem {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: #ff8c00;
+  text-align: right;
+}
+.subMenu {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 0;
+  padding: 30px 0;
+}
+
+.submenuItem {
+  margin-left: 24px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ff8c00;
+}
+
+.activeSubmenuItem {
+  color: #ff4500;
+}

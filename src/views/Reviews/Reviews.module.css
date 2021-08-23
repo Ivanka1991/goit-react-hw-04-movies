@@ -1,0 +1,14 @@
+.reviewsItem {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: #ff8c00;
+  width: 700px;
+}
+
+.title {
+  margin-top: 0;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: #2f4f4f;
+}
