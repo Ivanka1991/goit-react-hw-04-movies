@@ -1,7 +1,7 @@
 .moviesList {
   display: grid;
-  padding: 5px;
-  grid: repeat(4, 350px) / repeat(4, 290px);
+  padding: 0;
+  grid: repeat(4, 250px) / repeat(4, 290px);
   grid-gap: 5px;
   grid-auto-flow: column;
   width: calc(100% - 4px);

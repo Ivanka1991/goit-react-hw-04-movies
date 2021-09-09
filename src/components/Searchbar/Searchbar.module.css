@@ -6,6 +6,7 @@
   overflow: hidden;
   margin-right: auto;
   margin-left: auto;
+  justify-content: center;
 }
 
 .formInput {

@@ -55,7 +55,7 @@ export default function MoviesDeteilsPage() {
   }, [movieId, error]);
 
   const goBack = () => {
-    history.push(location?.state?.from ?? "/movies");
+    history.push(location?.state?.from ?? "/");
   };
 
   return (

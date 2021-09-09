@@ -6,7 +6,7 @@ export default function Spiner() {
   return (
     <div className={s.loader}>
       <Loader
-        type="Grid"
+        type="TailSpin"
         color="#ff8c00"
         height={100}
         width={100}

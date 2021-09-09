@@ -51,7 +51,7 @@ export default function MoviesPage() {
       .fetchMoviesByKeyWord(query)
       .then((results) => {
         if (results.length === 0) {
-          toast.error(`Not Found.`);
+          toast.error(`Not Found on ${query}.`);
           setStatus(Status.REJECTED);
           return;
         }
@@ -76,11 +76,11 @@ export default function MoviesPage() {
         <>
           <ul className={s.moviesList}>
             {movies.map((movie) => (
-              <li className={s.moviesItem} key={movie.id}>
+              <li key={movie.id} className={s.moviesItem}>
                 <Link
                   to={{
                     pathname: `${url}/${movie.id}`,
-                    state: { form: location },
+                    state: { from: location },
                   }}
                 >
                   <img
